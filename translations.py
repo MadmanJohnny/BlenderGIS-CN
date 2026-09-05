@@ -567,7 +567,7 @@ _translations_zh = {
         ("*", "AMap"): "高德地图",
         ("*", "AutoNavi map of China (GCJ-02 coordinate system)"): "中国高德地图（GCJ-02 坐标系）",
         ("*", "Street"): "街道图",
-        ("*", "Road network with labels"): "路网加注记",
+        ("*", "Standard street map (buildings, water, landuse)"): "标准版街道图（建筑、水系、土地利用）",
         ("*", "Satellite imagery"): "卫星影像",
         ("*", "Tianditu"): "天地图",
         ("*", "China national map service (requires API key)"): "中国国家地图服务（需 API 密钥）",

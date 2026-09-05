@@ -500,6 +500,7 @@ class MapService():
 
 		if self.service == 'TMS':
 			url = url.replace("{LAY}", lay.urlKey)
+			url = url.replace("{STYLE}", getattr(lay, 'style', ''))
 			if not self.quadTree:
 				url = url.replace("{X}", str(col))
 				url = url.replace("{Y}", str(row))

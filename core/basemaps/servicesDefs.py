@@ -307,10 +307,10 @@ SOURCES = {
 		"quadTree": False,
 		"gcj02": True,
 		"layers" : {
-			"STREET" : {"urlKey" : '8', "name" : 'Street', "description" : 'Road network with labels', "format" : 'png', "zmin" : 1, "zmax" : 18},
-			"SAT" : {"urlKey" : '6', "name" : 'Satellite', "description" : 'Satellite imagery', "format" : 'jpeg', "zmin" : 1, "zmax" : 18}
+			"STREET" : {"urlKey" : 'webrd01', "style" : '8', "name" : 'Street', "description" : 'Standard street map (buildings, water, landuse)', "format" : 'png', "zmin" : 1, "zmax" : 18},
+			"SAT" : {"urlKey" : 'wprd01', "style" : '6', "name" : 'Satellite', "description" : 'Satellite imagery', "format" : 'jpeg', "zmin" : 1, "zmax" : 18}
 		},
-		"urlTemplate": "http://wprd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&style={LAY}&x={X}&y={Y}&z={Z}",
+		"urlTemplate": "http://{LAY}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style={STYLE}&x={X}&y={Y}&z={Z}",
 		"referer": "http://www.amap.com/"
 	},
 
