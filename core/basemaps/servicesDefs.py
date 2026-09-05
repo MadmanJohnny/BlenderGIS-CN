@@ -319,7 +319,7 @@ SOURCES = {
 		"name" : 'Tianditu',
 		"description" : 'China national map service (requires API key)',
 		"service": 'TMS',
-		"grid": 'WM',
+		"grid": 'WM_SW',
 		"quadTree": False,
 		"layers" : {
 			"VEC" : {"urlKey" : 'vec', "name" : 'Vector base', "description" : 'Vector base map (roads, water)', "format" : 'png', "zmin" : 1, "zmax" : 18},
