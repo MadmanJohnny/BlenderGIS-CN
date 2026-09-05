@@ -329,8 +329,8 @@ SOURCES = {
 			"TER" : {"urlKey" : 'ter', "name" : 'Terrain', "description" : 'Terrain shaded relief', "format" : 'jpeg', "zmin" : 1, "zmax" : 18},
 			"CTA" : {"urlKey" : 'cta', "name" : 'Terrain labels', "description" : 'Terrain annotations', "format" : 'png', "zmin" : 1, "zmax" : 18}
 		},
-		"urlTemplate": "http://t0.tianditu.gov.cn/{LAY}_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER={LAY}&STYLE=default&TILEMATRIXSET=w&FORMAT=tiles&TILEMATRIX={Z}&TILEROW={Y}&TILECOL={X}&tk={TK}",
-		"referer": "http://www.tianditu.gov.cn/"
+		"urlTemplate": "https://t0.tianditu.gov.cn/{LAY}_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER={LAY}&STYLE=default&TILEMATRIXSET=w&FORMAT=tiles&TILEMATRIX={Z}&TILEROW={Y}&TILECOL={X}&tk={TK}",
+		"referer": "https://www.tianditu.gov.cn/"
 	}
 
 }
